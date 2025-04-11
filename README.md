@@ -46,13 +46,22 @@ This is a Spring Boot based web application developed for the "Data Structures a
 ### 1. Clone the Repository:
 ```bash
 git clone https://github.com/nnebange/DSA-Binary-Search-Tree.git
+```bash
+```bash
 cd DSA-Binary-Search-Tree
+```bash
 
 Build the Project
+```bash
 mvn clean install
+```bash
 
 Run the Application
+```bash
 mvn spring-boot:run
+```bash
 
 Access application
+```bash
 http://localhost:8080/enter-numbers
+```bash
