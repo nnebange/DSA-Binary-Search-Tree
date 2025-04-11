@@ -26,7 +26,7 @@ class BstApplicationTests {
     @Test
     void testEmptyBST() {
         BSTNode result = service.getBalancedBST("");
-        assertNull(result);  // correct expectation for empty input
+        assertNull(result);  
     }
 
     @Test

@@ -17,7 +17,6 @@ public class BSTService {
 
     private final TreeRepository repository;
 
-    // Method returning BST Node (For internal usage)
     public BSTNode getBalancedBST(String numbers) {
         BST bst = new BST();
 
@@ -37,7 +36,6 @@ public class BSTService {
         return balancedRoot;
     }
 
-    // Method returning Pretty Printed JSON (For Browser Display)
     public String getBalancedBSTAsJson(String numbers) {
         BSTNode balancedRoot = getBalancedBST(numbers);
 
@@ -49,7 +47,6 @@ public class BSTService {
         }
     }
 
-    // Converts BSTNode to JSON String
     private String toJson(BSTNode root) {
         try {
             ObjectMapper mapper = new ObjectMapper();
@@ -59,7 +56,6 @@ public class BSTService {
         }
     }
 
-    // Retrieve all trees from database
     public List<TreeEntity> getAllTrees() {
         return repository.findAll();
     }
