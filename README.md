@@ -44,24 +44,25 @@ This is a Spring Boot based web application developed for the "Data Structures a
 ## How To Run The Project Locally:
 
 ### 1. Clone the Repository:
-```bash
+```sh
 git clone https://github.com/nnebange/DSA-Binary-Search-Tree.git
-```bash
-```bash
+```
+
+```sh
 cd DSA-Binary-Search-Tree
-```bash
+```
 
-Build the Project
-```bash
+**Build the Project**
+```sh
 mvn clean install
-```bash
+```
 
-Run the Application
-```bash
+**Run the Application**
+```sh
 mvn spring-boot:run
-```bash
+```
 
-Access application
-```bash
+**Access application**
+```sh
 http://localhost:8080/enter-numbers
-```bash
+```
