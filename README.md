@@ -52,17 +52,17 @@ git clone https://github.com/nnebange/DSA-Binary-Search-Tree.git
 cd DSA-Binary-Search-Tree
 ```
 
-**Build the Project**
+### 2. Build the Project:
 ```sh
 mvn clean install
 ```
 
-**Run the Application**
+### 3. Run the Application:
 ```sh
 mvn spring-boot:run
 ```
 
-**Access application**
+### 4. Access application:
 ```sh
 http://localhost:8080/enter-numbers
 ```
